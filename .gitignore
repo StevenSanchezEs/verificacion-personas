@@ -1,0 +1,57 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pkl
+*.egg
+*.egg-info/
+*.manifest
+*.spec
+
+# --- Entornos virtuales ---
+env/
+venv/
+.venv/
+ENV/
+env.bak/
+
+# --- Dependencias ---
+pip-wheel-metadata/
+*.egg-info/
+dist/
+build/
+wheels/
+
+# --- Archivos de configuración ---
+*.ini
+*.log
+*.pot
+*.pyproj
+*.sublime-project
+*.sublime-workspace
+.pytest_cache/
+.coverage
+.tox/
+.cache/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# --- IDE ---
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- Bases de datos locales ---
+*.sqlite3
+*.db
+*.sqlite
+
+# --- Variables de entorno ---
+.env
+.env.local
+.env.development
+.env.test
+.env.production
